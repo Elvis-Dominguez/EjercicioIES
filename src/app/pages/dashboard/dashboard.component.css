@@ -1,0 +1,7 @@
+.posicion {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 10% 0;
+  /* position: fixed; */
+}
