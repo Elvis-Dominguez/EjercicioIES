@@ -12,7 +12,10 @@ import { ComponeteUnoComponent } from './pages/componete-uno/componete-uno.compo
 import { HeaderComponent } from './shared/header/header.component';
 import { SiderbarComponent } from './shared/sidebar/sidebar.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+
 import { ServiceService } from './services/service.service';
+import { CiudadService } from './services/ciudad.service';
+
 
 
 
@@ -32,7 +35,8 @@ import { ServiceService } from './services/service.service';
     AppRoutingModule
   ],
   providers: [
-    ServiceService
+    ServiceService,
+    CiudadService
   ],
   bootstrap: [AppComponent]
 })
